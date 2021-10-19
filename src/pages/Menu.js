@@ -6,7 +6,7 @@ import "../styles/Menu.css";
 function Menu() {
   return (
     <div className="menu">
-      <h1 className="menuTitle">Biografia</h1>
+      <h1 className="menuTitle">Discografia</h1>
       <div className="menuList">
         {MenuList.map((menuItem, key) => {
           return (
@@ -14,8 +14,9 @@ function Menu() {
               key={key}
               image={menuItem.image}
               name={menuItem.name}
-             
+              price={menuItem.price}
             />
+            
           );
         })}
       </div>

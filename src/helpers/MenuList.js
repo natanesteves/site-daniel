@@ -1,4 +1,4 @@
-import Pepperoni from "../assets/emconstru.jpg";
+import Pepperoni from "../assets/dimdom.jpeg";
 import Margherita from "../assets/emconstru.jpg";
 import PedroTechSpecial from "../assets/emconstru.jpg";
 import Vegan from "../assets/emconstru.jpg";
@@ -7,8 +7,9 @@ import Expensive from "../assets/emconstru.jpg";
 
 export const MenuList = [
   {
-    name: "",
+    name: "Fruto Bruto",
     image: Pepperoni,
+    price: "texto",
    
   },
   {
