@@ -13,18 +13,11 @@ function Contact() {
         <h1> Contact Us</h1>
 
         <form id="contact-form" method="POST">
-          <label htmlFor="name">Nome </label>
-          <input name="name" placeholder="Enter full name..." type="text" />
-          <label htmlFor="email">Email</label>
-          <input name="email" placeholder="Enter email..." type="email" />
-          <label htmlFor="message">Mensagem</label>
-          <textarea
-            rows="6"
-            placeholder="Enter message..."
-            name="message"
-            required
-          ></textarea>
-          <button type="submit"> Send Message</button>
+        
+         <a href="https://www.instagram.com/danielhornmusic/"> <p>@danielhornmusic (instagram)</p> </a>
+          <p> danielhornmusic@gmail.com (email)</p>
+           <p>+55 21 9 9755-2228 (telefone e whatsapp)</p>
+
         </form>
       </div>
     </div>
