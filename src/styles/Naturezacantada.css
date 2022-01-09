@@ -1,5 +1,20 @@
-#essa{
- background-color: aliceblue;
+.essa{
+ background-color: rgb(170, 193, 212);
  width: 100%;
  size: 40px;
+}
+.video{
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 5%;
+    align-content: center;
+}
+.natup{
+    margin-left: 30%;
+    width: 40%;
+    text-align: center;
+    padding: 0;
+    font-size: 16px;
+    font-weight: lighter;
+    color: black;
 }

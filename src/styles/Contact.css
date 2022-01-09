@@ -1,42 +1,89 @@
 .contact {
   width: 100%;
-  height: 90vh;
+  height: 100vh;
   display: flex;
+  background-color: grey ;
 }
 
 .contact .leftSide {
-  height: 100%;
-  flex: 50%;
+  height: 80%;
+  flex: 50%;  
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .contact .rightSide {
-  height: 100%;
+  height: 80%;
   flex: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-left: 15%;
 }
 
 .contact .rightSide h1 {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-weight: 10;
-  font-size: 50px;
+  font-size: 90px;
   margin-left: 30px;
 }
+.divi1{
+  margin-top: -150px;
+  width: 350px;
+  height: 150px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
 
+.divi2{
+  width: 350px;
+  height: 100px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.divi3{
+  width: 350px;
+  height: 100px;
+  margin: 20px;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}
+.Pzin{
+  margin-left: 100px;
+}
+.h3zin{
+  margin-left: 10%;
+}
+.Pzin15{
+  margin-left: 90px;
+}
+.Pzin1{
+  margin-left: 70px;
+}
+.h3zin1{
+  margin-left: 7%;
+}
+.h3zin2{
+  margin-left: 120px;
+}
+.h3zin3{
+  width: 100%;
+  margin-left: 90px;
+}
 form {
+  margin-top: -50px;
   display: flex;
   flex-direction: column;
   width: auto;
   height: auto;
-  padding: 30px;
+  padding: 20px;
 }
 
 form input {
+  
   height: 40px;
   width: 80%;
   border: none;
@@ -45,7 +92,6 @@ form input {
 }
 
 form textarea {
-  margin-top: 15px;
   height: 70px;
   width: 80%;
   border: none;
@@ -63,13 +109,12 @@ textarea:focus {
   outline: none;
 }
 
-form label {
-  margin-top: 15px;
+form label {margin-top: 15px;
   color: grey;
 }
 
 form button {
-  margin-top: 40px;
+  
   width: 140px;
   height: 40px;
   border: none;

@@ -7,6 +7,7 @@
   align-items: center;
   flex-direction: column;
   padding-top: 10px;
+  font-family: 'Permanent Marker', cursive;
 }
 
 .socialMedia svg {
@@ -18,4 +19,8 @@
 
 .footer p {
   color: white;
+}
+.footinho2 {
+  color: white;
+  margin-left: 80%;
 }

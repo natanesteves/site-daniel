@@ -1,11 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-// import BannerImage from "../assets/emconstru.jpg";
+
+import BannerImage from "../assets/fundo.jpg";
 import "../styles/Disc.css";
 
 function Disc() {
   return (
-     <div className="home" /*style={{ backgroundImage: `url(${BannerImage})` }}*/>
+     <div className="home" style={{ backgroundImage: `url(${BannerImage})` }}>
       <div className="headerContainer">
         <h1 > Biografia </h1>
                <p className='headerContainer p'>Multi-instrumentista, compositor, produtor e educador musical.

@@ -13,7 +13,8 @@ function Footer() {
         <a href="https://www.instagram.com/danielhornmusic/"><InstagramIcon/></a> 
         <a href="https://www.facebook.com/DaniHornMusic"><FacebookIcon /></a>  
       </div>
-      <p> &copy;contato@danielhornmusic.com</p>
+      <p className="footinho"> &copy;danielhornmusic@gmail.com</p>
+      <p className="footinho2"> &copy;Desenvolvido por: //github.com/natanesteves</p>
     </div>
   );
 }

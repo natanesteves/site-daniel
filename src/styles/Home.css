@@ -11,9 +11,11 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.headerContainer {
-  width: auto;
-  margin-left: 50px;
+.home22 {
+  width: 50%;
+  margin-bottom: 500px;
+  margin-left: 15%;
+  
 }
 
 .headerContainer h1 {
@@ -25,11 +27,11 @@
   color: black;
 }
 
-.headerContainer p {
+.home23 {
   padding: 0;
-  font-size: 40px;
+  font-size: 60px;
   font-weight: lighter;
-  color: black;
+  color: white;
 }
 
 .headerContainer button {
@@ -61,7 +63,7 @@
   .headerContainer p {
   }
 
-  .headerContainer {
+  .home22 {
     margin-left: 0px;
     border-radius: 10px;
     padding: 10px;
@@ -80,8 +82,8 @@
     color: white;
   }
 
-  .headerContainer p {
-    font-size: 30px;
+  .home23 {
+    font-size: 90px;
     color: white;
   }
 
