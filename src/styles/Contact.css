@@ -37,19 +37,29 @@
   height: 150px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
-}
+ 
+} .divi1:hover {
+    background-color: rgb(225, 225, 225);
+    color: #121619;
+  }
 
 .divi2{
   width: 350px;
   height: 100px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}.divi2:hover {
+  background-color: rgb(225, 225, 225);
+  color: #121619;
 }
 .divi3{
   width: 350px;
   height: 100px;
   margin: 20px;
   box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+}.divi3:hover {
+  background-color: rgb(225, 225, 225);
+  color: #121619;
 }
 .Pzin{
   margin-left: 100px;
